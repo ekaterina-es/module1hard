@@ -5,6 +5,6 @@ gpa = (sum(grades[0]) / len(grades[0]),
        sum(grades[3]) / len(grades[3]),
        sum(grades[4]) / len(grades[4]))
 students = {'Johnny', 'Bilbo', 'Steve', 'Khendrik', 'Aaron'}
-list(students)
-students_gpa = dict(zip(sorted(students), gpa))
+students_list = list(students)
+students_gpa = dict(zip(sorted(students_list), gpa))
 print(students_gpa)
